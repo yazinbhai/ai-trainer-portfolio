@@ -161,7 +161,7 @@ export default function Hero() {
                     <div className="text-xs font-mono text-cyan-400 tracking-wider">AI TRAINER & ARCHITECT</div>
                     <div className="text-xl font-bold text-white leading-tight">Yazin Azad</div>
                     <div className="text-xs text-slate-300 mt-0.5 line-clamp-1">
-                      Google AI Essentials • Google Prompting • ChatGPT Prompt Specialist
+                      Certified Gen AI Prompt Engineer
                     </div>
                   </div>
                 </div>
