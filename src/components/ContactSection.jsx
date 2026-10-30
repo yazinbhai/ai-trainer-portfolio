@@ -107,7 +107,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-bold text-sm text-white">GitHub Profile</div>
-                    <div className="text-xs font-mono text-slate-400">@yazinbhai (8 Active Repos)</div>
+                    <div className="text-xs font-mono text-slate-400">@yazinbhai (Featured Projects)</div>
                   </div>
                 </div>
                 <span className="text-xs font-mono text-slate-400 group-hover:text-white transition-colors">

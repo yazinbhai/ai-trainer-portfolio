@@ -78,7 +78,7 @@ export default function Hero() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm text-white bg-slate-900/90 hover:bg-slate-800 border border-slate-700/80 hover:border-cyan-500/40 transition-all"
               >
                 <GithubIcon className="w-4 h-4 text-slate-300" />
-                <span>All 8 GitHub Projects</span>
+                <span>AI GitHub Projects</span>
               </a>
 
               <a

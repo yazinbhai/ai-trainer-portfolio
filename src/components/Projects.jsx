@@ -7,7 +7,7 @@ export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const categories = ['All', 'AI & Media', 'Systems & Web', 'Cybersecurity & AI', 'EdTech & Soft Skills', 'Healthcare & Web', 'E-Commerce'];
+  const categories = ['All', 'AI & Media', 'Systems & Web', 'EdTech & Soft Skills', 'Healthcare & Web', 'E-Commerce'];
 
   const filteredProjects = githubProjects.filter((project) => {
     const matchesCategory = selectedCategory === 'All' || project.category.includes(selectedCategory) || project.category === selectedCategory;
@@ -30,10 +30,10 @@ export default function Projects() {
               <span>GitHub Repositories & Engineering Portfolio</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-              All Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">GitHub Projects</span>
+              AI Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400">GitHub Projects</span>
             </h2>
             <p className="mt-2 text-slate-400 text-sm sm:text-base max-w-2xl">
-              Production codebases, open-source repositories, interactive security simulators, generative AI tools, and enterprise web systems.
+              Production codebases, autonomous agent systems, generative AI platforms, and intelligent software engineering.
             </p>
           </div>
 

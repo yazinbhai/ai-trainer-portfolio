@@ -11,7 +11,7 @@ export const personalInfo = {
   logo: "/yazin-trainer-logo.png",
   stats: [
     { label: "Autonomous Agent Architectures", value: "Claude & Hermes" },
-    { label: "GitHub Repositories", value: "8 Active" },
+    { label: "Featured Projects", value: "6 Active" },
     { label: "Professionals & Teams Coached", value: "1,200+" },
     { label: "Deterministic Execution", value: "100% Reliable" }
   ]
@@ -99,18 +99,6 @@ export const githubProjects = [
     highlights: ["Direct browser-to-phone WebUSB bridge", "Low-latency screen mirroring", "Touch & key event routing"]
   },
   {
-    id: "social-engineering-art-of-human-hacking",
-    title: "Social Engineering: The Art of Human Hacking",
-    subtitle: "Interactive Master Edition Simulation Lab",
-    category: "Cybersecurity & AI",
-    description: "Interactive master portal of Christopher Hadnagy's work — complete 9-chapter reading experience, interactive simulation attack-defense labs, and psychological takeaways.",
-    tags: ["JavaScript", "HTML5/CSS3", "Interactive Sims", "Netlify", "Security"],
-    repoUrl: "https://github.com/yazinbhai/social-engineering-art-of-human-hacking",
-    liveUrl: "http://adorable-druid-894ea4.netlify.app",
-    featured: true,
-    highlights: ["9 Comprehensive chapter deep dives", "Interactive psychological scenario simulators", "Vulnerability assessment matrix"]
-  },
-  {
     id: "previewspot",
     title: "PreviewSpot",
     subtitle: "Generative AI Ad Film Production Platform",
@@ -169,18 +157,6 @@ export const githubProjects = [
     liveUrl: "https://njammnjamm.com",
     featured: false,
     highlights: ["Brand story visual identity", "Streamlined mobile checkout experience", "Order tracking layout"]
-  },
-  {
-    id: "social-engineer-toolkit",
-    title: "Social-Engineer Toolkit (SET)",
-    subtitle: "Advanced Human Security Simulation Suite",
-    category: "Cybersecurity & AI",
-    description: "Maintained repository and fork of the premier penetration testing framework focused on social engineering tactics, credential defense analysis, and security awareness drills.",
-    tags: ["Python", "Penetration Testing", "Security Automation", "Adversary Sim"],
-    repoUrl: "https://github.com/yazinbhai/social-engineer-toolkit",
-    liveUrl: "https://github.com/yazinbhai/social-engineer-toolkit",
-    featured: false,
-    highlights: ["Credential harvester analysis", "Vector simulation pipelines", "Defense-in-depth awareness training"]
   }
 ];
 
